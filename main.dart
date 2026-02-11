@@ -2,7 +2,7 @@ import 'dart:io';
 import 'dart:math';
 
 void main(){
- /*  var i = 5;
+  var i = 5;
   var age = "35";
   var bool = true;
   int num = 10;
@@ -26,8 +26,8 @@ void main(){
   print('La suma de $a y $b es $sum');
   int rest = a-b;
   int mult = a*b;
-/*   int divi = a~/b; */
-  double divi = a/b;
+  int divi = a~/b; 
+  double divie = a/b;
   print(divi);
 
   // listas
@@ -52,7 +52,7 @@ void main(){
   print(ages);
   ages["Charlie"] = 36; // actualizar un elemento
   print(ages);
-   */
+   
   //sets
   Set enteros = {1, 20, 3, 40, 5};
   print(enteros);
@@ -64,7 +64,7 @@ void main(){
 
   //pedir datos al usuario
   print("Ingrese su nombre:");
-  String? name = stdin.readLineSync();
+  String? name1 = stdin.readLineSync();
   //potencia
   print("Ingrese un numero:");
   int? valor1 = int.tryParse(stdin.readLineSync() ?? '0');
